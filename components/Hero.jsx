@@ -31,7 +31,7 @@ const Hero = () => {
                     <div className={styles.billboard__container}>
                         <p className={styles.billboard__next}>Up next</p>
                         <h2 className={styles.billboard__title}>Aerial View of Rock Cliffs</h2>
-                        <div className={styles.next}><Image src="/img/next.png" alt="Min" height="14" width="43" /></div>
+                        <div className={styles.next}><a href="#"><Image src="/img/next.png" alt="Min" height="14" width="43" /></a></div>
                     </div>
                     <div className={styles.billboard__background}><Image src="/img/andrew-ridley-min.png" alt="Min" height="400" width="270" /></div>
                 </div>
