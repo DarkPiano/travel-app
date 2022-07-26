@@ -115,21 +115,37 @@
 }
 
 .book__form {
-    border: 1px solid #E7E7F2;
-    border-radius: 10px;
     display: flex;
     flex: 1;
     margin-right: 30px;
     display: grid;
     grid-template-columns: 1.4fr 0.9fr 0.5fr;
-    padding: 0 10px;
 }
 
-.book__list {
+.book__list__Accommodation {
+    border: 1px solid #E7E7F2;
+    border-radius: 10px 0 0 10px;
     display: inline-flex;
     align-items: center;
     position: relative;
-    padding: 14px 0 0 0;
+    padding: 14px 0px 0px 10px
+}
+
+.book__list__Check {
+    border: 1px solid #E7E7F2;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 14px 0px 0px 10px
+}
+
+.book__list__Guests {
+    border: 1px solid #E7E7F2;
+    border-radius: 0 10px 10px 0;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 14px 0px 0px 10px
 }
 
 .book__list__wrapper {
@@ -140,12 +156,13 @@
 
 .check{
     display: flex;
+    margin-right: 50px;
 }
 
 .book__item__title {
     position: absolute;
     top: 4px;
-    left: 32px;
+    left: 45px;
     font-size: 14px;
     color: #E7E7F2;
 }
@@ -153,7 +170,7 @@
 .book__item__title__date {
     position: absolute;
     top: 4px;
-    left: 150px;
+    left: 208px;
     font-size: 14px;
     color: #E7E7F2;
 }
