@@ -41,7 +41,7 @@ const Hero = () => {
                 <div className={styles.book__title}>Book your vacation</div>
                 <div className={styles.book__container}>
                     <form className={styles.book__form}>
-                        <div className={styles.book__list}>
+                        <div className={styles.book__list__Accommodation}>
                             <div className={styles.book__list__wrapper}>
                                 <Image className={styles.book__img} src="/img/home.png" alt="icon" height="21" width="21" />
                                 <label className={styles.book__item__title}>Accommodation</label>
@@ -53,7 +53,7 @@ const Hero = () => {
                                 </select>
                             </div>
                         </div>
-                        <div className={styles.book__list}>
+                        <div className={styles.book__list__Check}>
                             <div className={styles.book__list__wrapper}>
                                 <div className={styles.check}>
                                     <Image src="/img/calendar.png" alt="icon" height="23" width="23" />
@@ -67,7 +67,7 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.book__list}>
+                        <div className={styles.book__list__Guests}>
                             <div className={styles.book__list__wrapper}>
                                 <Image src="/img/guest.png" alt="icon" height="24" width="18" />
                                 <label className={styles.book__item__title}>Guests</label>
